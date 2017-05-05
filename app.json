@@ -8,6 +8,7 @@
     "en": [ "game", "play" ],
     "nl": [ "spel", "spelletje" ]
   },
+  "category": ["internet","tools"],
   "version": "1.0.0",
   "compatibility": ">= 1.2.0",
   "author": {
@@ -16,14 +17,19 @@
   },
   "contributors": {
     "developers": [
-        {
-            "email": "chieldegruijter@hotmail.com"
-        }
+      {
+        "email": "chieldegruijter@hotmail.com",
+        "name": "Chiel de Gruijter"
+      }
     ]
   },
   "description": {
     "en": "Rock Paper Scissors game",
     "nl": "Steen Papier Schaar spel"
+  },
+  "images": {
+    "large": "./assets/images/large.jpg",
+    "small": "./assets/images/small.jpg"
   },
   "permissions": [
       "homey:manager:speech-output",
