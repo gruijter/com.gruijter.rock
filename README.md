@@ -16,6 +16,7 @@ app (the first one ever).
 Version changelog
 
 ```
+v2.0.0	2018.05.04 Rewrite to SDK2
 v1.0.0  2017.05.05 Initial release
 ```
 [pp-donate-link]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BBJLTC6RNNYJ2

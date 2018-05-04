@@ -4,37 +4,47 @@
     "en": "Rock Paper Scissors",
     "nl": "Steen Papier Schaar"
   },
+	"description": {
+		"en": "Rock Paper Scissors game",
+		"nl": "Steen Papier Schaar spel"
+	},
   "tags": {
     "en": [ "game", "play" ],
     "nl": [ "spel", "spelletje" ]
   },
   "category": ["internet","tools"],
-  "version": "1.0.0",
-  "compatibility": ">= 1.2.0",
+  "version": "2.0.0",
+	"sdk": 2,
+  "compatibility": ">= 1.5",
   "author": {
-    "name": "Robin Gruijter",
-    "email": "gruijter@hotmail.com"
+      "name": "Robin de Gruijter",
+      "email": "gruijter@hotmail.com"
+  },
+  "copyright": "Chiel de Gruijter (chieldegruijter@hotmail.com)",
+  "license": " GPL-3.0-or-later",
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "gruijter"
+      }
+    }
   },
   "contributors": {
     "developers": [
       {
-        "email": "chieldegruijter@hotmail.com",
-        "name": "Chiel de Gruijter"
-      }
+        "name": "Chiel de Gruijter",
+        "email": "chieldegruijter@hotmail.com"
+      },
+			{
+		      "name": "Robin de Gruijter",
+		      "email": "gruijter@hotmail.com"
+		  }
     ]
-  },
-  "description": {
-    "en": "Rock Paper Scissors game",
-    "nl": "Steen Papier Schaar spel"
   },
   "images": {
     "large": "./assets/images/large.jpg",
     "small": "./assets/images/small.jpg"
   },
-  "permissions": [
-      "homey:manager:speech-output",
-      "homey:manager:speech-input"
-  ],
   "speech": {
     "en": {
       "element": {
@@ -92,5 +102,13 @@
         }
       }
     }
-  }
+  },
+	"speechExamples": {
+		"en": [ "Rock paper scissors", "Play rock paper scissors" ],
+		"nl": [ "Steen papier schaar", "Speel steen papier schaar" ]
+	},
+	"permissions": [
+			"homey:manager:speech-output",
+			"homey:manager:speech-input"
+	]
 }
